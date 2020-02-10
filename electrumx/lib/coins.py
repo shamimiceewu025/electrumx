@@ -1162,7 +1162,7 @@ class AAAcoin(Coin):
             P2PKH_VERBYTE = bytes.fromhex("17")
             P2SH_VERBYTES = [bytes.fromhex("55")]
             WIF_BYTE = bytes.fromhex("95")
-            GENESIS_HASH = ('000003afa973d70b085024a53a5ba0e923d70fbf1352aa91da21e15c0c0ffdf9')
+            GENESIS_HASH = ('e1456ef3b12d4239dac8083c3e2bcfff65101a36ea35ea1192d8b7638fb49e3e')
             TX_COUNT = 2755013
             TX_COUNT_HEIGHT = 1378853
             TX_PER_BLOCK = 1.08
