@@ -1153,7 +1153,20 @@ class Dogecoin(AuxPowMixin, Coin):
     TX_PER_BLOCK = 20
     REORG_LIMIT = 2000
 
-
+class AAAcoin(Coin):
+            NAME = "AAAcoin"
+            SHORTNAME = "AAA"
+            NET = "mainnet"
+            XPUB_VERBYTES = bytes.fromhex("0488B21E")
+            XPRV_VERBYTES = bytes.fromhex("0488ADE4")
+            P2PKH_VERBYTE = bytes.fromhex("17")
+            P2SH_VERBYTES = [bytes.fromhex("55")]
+            WIF_BYTE = bytes.fromhex("95")
+            GENESIS_HASH = ('000003afa973d70b085024a53a5ba0e923d70fbf1352aa91da21e15c0c0ffdf9')
+            TX_COUNT = 2755013
+            TX_COUNT_HEIGHT = 1378853
+            TX_PER_BLOCK = 1.08
+            
 class DogecoinTestnet(Dogecoin):
     NAME = "Dogecoin"
     SHORTNAME = "XDT"
